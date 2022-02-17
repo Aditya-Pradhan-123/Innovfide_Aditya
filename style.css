@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    
+}
+/* -------Navbar---------- */
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 40px auto;
+    background-color: white;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+}
+.logo{
+    width: 80%;
+}
+.logo img{
+    width: 14%;
+}
+.nav-lists{
+    width: 30%;
+}
+.nav-lists ul{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-lists ul .contact-li{
+    color: #1694D3;
+    border-bottom: 2px solid #1694D3;
+}
+.nav-lists ul li{
+    cursor: pointer;
+}
+
+/* ------------Contact ------------------ */
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #1694D3;
+}
+.contact-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.contact-header h1{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+.contact-nav p{
+    font-size: 15px;
+    color: white;
+}
+
+/* ------------Contact Descriptions------------ */
+
+.contact-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1em;
+    
+}
+.contact-desc-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 4em; */
+    height: 72vh;
+    
+}
+.contact-desc-container .address{
+    padding:0px 50px 0px 0px;
+    border-right: 3px dashed rgb(177, 175, 175);
+    width: 50%;
+    min-height: 100%;
+}
+.contact-desc-container .address h1{
+    margin-top: .5em;
+    font-weight: 400;
+}
+.contact-desc-container .address h3{
+    margin-bottom: 2em;
+    font-size: 14px;
+    font-weight: 300;
+}
+.contact-desc-container .address .para p{
+    margin-left: 2em;
+    font-size: 14px;
+}
+
+.address-location{
+    display: flex;    
+}
+.address-location-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address .email{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+}
+.email-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    margin-top: 2em;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+
+.contact-form{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 50%;
+    height: 100%;
+}
+.contact-form-container{
+    width: 100%;
+    margin-top: 2em;
+    margin-left: 90px;
+}
+.contact-form-container .input1{
+    width: 210px;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+.contact-form-container label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.contact-form-container label span{
+    color: red;
+}
+.name{
+    display: flex;
+}
+.name .f-name{
+    display: flex;
+    flex-direction: column;
+}
+.name .l-name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+}
+
+.email-phone{
+    display: flex;
+    margin-top: 1.5em;
+}
+.email-phone .email{
+    display: flex;
+    flex-direction: column;
+}
+.email-phone .phone{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+}
+.website{
+    margin-top: 1.5em;
+}
+.website #no{
+    margin-left: 2em;
+}
+.website-url{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+button{
+    padding: 8px 30px;
+    background-color: #FF914D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 3em;
+    font-weight: 500;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(187, 187, 187);  
+}
+.footer .footer-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px 0px;
+}
+.footer .footer-container p span{
+    color: #1694D3;
+}

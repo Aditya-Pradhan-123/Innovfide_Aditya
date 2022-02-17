@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovfide Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NavBar -->
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="nav-lists">
+                <ul>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Blogs</li>
+                    <li class="contact-li">Contact</li>
+                </ul>
+            </div>            
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h1>Contact us</h1>
+            </div>
+
+            <div class="contact-nav">
+                <p>Home > Contact</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact-Description -->
+    <div class="contact-desc">
+        <div class="contact-desc-container">
+            <div class="address">
+                <h1>Get in touch with us</h1>
+                <h3>Contact us for a Website, Mobile applicatons, Digital marketing <br> or IT support</h3>
+
+                <!-- Location -->
+                <div class="address-location">
+                    <div class="address-location-container">
+                        <div class="image">
+                            <img src="./images/address.png" alt="">
+                        </div>    
+                        <div class="para">
+                            <p>Innovfide Technologies <br>Anulekha Anurag Nagar, Tulinj, <br> Nallasopara East</p>
+                        </div> 
+                    </div>        
+                </div>
+
+                <!-- Email -->
+                <div class="email">
+                    <div class="email-container">
+                        <div class="image">
+                            <img src="./images/email.png" alt="">
+                        </div>
+                        <div class="para">
+                            <p>business@innovfide.com</p>
+                        </div> 
+                    </div>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="number">
+                    <div class="image">
+                        <img src="./images/phone.png" alt="">
+                    </div>
+                    <div class="para">
+                        <p>+91 8767484648</p>
+                    </div>     
+                </div>
+            </div>
+            <!-- -------------Form---------- -->
+            <div class="contact-form">
+                <div class="contact-form-container">
+                    <form action="/" id="form">
+                    <div class="name">
+                        <div class="f-name">
+                            <label for="">First Name: <span>*</span></label>
+                            <input type="text" id="f-name" placeholder="Please enter your first name" class="input1">
+                            <span class="f-name-span" id="f-name-span" style="color: red; font-size: 12px;"></span>
+                        </div>
+                        <div class="l-name">
+                            <label for="">Last Name: <span>*</span></label>
+                            <input type="text" id="l-name" placeholder="Please enter your last name" class="input1">
+                            <span class="l-name-span" id="l-name-span" style="color: red; font-size: 12px;"></span>
+                        </div>
+                    </div>
+
+                    <div class="email-phone">
+                        <div class="email">
+                            <label for="">Email: <span>*</span></label>
+                            <input type="text" id="email" placeholder="Please enter your Email" class="input1">
+                            <span class="email-span" id="email-span" style="color: red; font-size: 12px;"></span>
+                        </div>
+                        <div class="phone">
+                            <label for="">Phone: <span>*</span></label>
+                            <input type="text" id="phone" placeholder="Please enter your Phone no." class="input1">
+                            <span class="phone-span" id="phone-span" style="color: red; font-size: 12px;"></span>
+                        </div>
+                    </div>
+                    <div class="website">
+                        <Label>Do you have a Website? <span>*</span></Label>
+                        <div class="radio-btns">
+                            <input type="radio" name="rdb"  id="yes" onclick="Radio_check()"> Yes
+                            <input type="radio" name="rdb" id="no" onclick="Radio_check()"> No
+                            <span class="chkyes-span" id="chkyes-span" style="color: red; font-size: 12px;"></span>
+                        </div>  
+                    </div>
+
+                    <div class="website-url">
+                        <Label>Website URL:</Label>
+                        <input type="text" placeholder="Please enter your Website URL" class="input1" id="website-url" disabled>
+                    </div>
+
+                    <button type="submit">Submit</button>
+                    
+                </form>
+                <span id="success" style="color: green; align-self: center;margin-top: 2em;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <p>All Righhts Reserved | <span>Innovfide Technologies</span> | 2021</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
